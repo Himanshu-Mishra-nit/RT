@@ -1,0 +1,101 @@
+.heading{
+    color:#333;
+    font-size: 3.5rem;
+    padding: 1rem;
+    padding-top: 6rem;
+    text-align: center;
+    letter-spacing: .2rem;
+  }
+  
+  .heading span{
+    color:#0098a1;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 15%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  
+  }
+  .contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact .row .contact-info .box{
+    margin:4rem 2rem;
+  }
+  
+  .contact .row .contact-info .box h3{
+    font-size: 2rem;
+    color:#333;
+  }
+  
+  .contact .row .contact-info .box h3 i{
+    color:#0098a1;
+  }
+  
+  .contact .row .contact-info .box p{
+    padding-left: 3rem;
+    font-size: 1.7rem;
+    color:#aaa;
+  }
+  
+  .contact .row .contact-form-container{
+    width:50%;
+  }
+  
+  .contact .row .contact-form-container h3{
+    font-size: 4rem;
+    padding-top: 4rem;
+    color:#0098a1;
+  } 
+  
+  .contact .row .contact-form-container .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact .row .contact-form-container .inputBox input{
+    width: 49%;
+  }
+  
+  .contact .row .contact-form-container form input, textarea{
+    outline: none;
+    border:.2rem solid #0098a1;
+    height:4rem;
+    background:#fff;
+    padding:0 1rem;
+    margin:1rem 0;
+    font-size: 1.8rem;
+  }
+  
+  .contact .row .contact-form-container form textarea{
+    width:100%;
+    padding:1rem;
+    resize: none;
+    height:20%;
+  }
+  
+  .contact .row .contact-form-container form input[type="submit"]{
+    color:#0098a1;
+    border:.2rem solid #0098a1;
+    cursor: pointer;
+    transition: .2s;
+    width:20rem;
+  }
+  
+  .contact .row .contact-form-container form input[type="submit"]:hover{
+    color:#fff;
+    background:#0098a1;
+  }
+  

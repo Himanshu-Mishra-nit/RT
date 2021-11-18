@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  box-sizing: inherit;
+}
+ body{
+  background-image: url(images/hra.jpg);
+  background-size: cover;
+  
+} 
+.title{
+ /* border: 2px solid #07b2dd;*/
+ border: 2px solid black;
+ margin-left: 40%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 10px 20px;
+  width: 300px;
+  font-size: 50px;
+  /*color: #0839db;*/
+  color: #010d1d;
+  border-radius: 5px;
+  letter-spacing: 8px;
+  
+
+}
+.sub-title{
+  margin-left: 45%;
+  font-size: 28px;
+  letter-spacing: 6px;
+  padding: 10px 0;
+ /* color:#07145e;*/
+ color: #010d1d;
+}
+.heading{
+  text-align: center;
+}
+
+.home,
+.reports,
+.products {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.container {
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+ /* background-color: #FFE5B4;*/
+  /*backdrop-filter: blur(10px);*/
+  padding: 20px;
+  padding: left 20px;
+  margin: 20px auto;
+  
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+
+.footer {
+  position:fixed;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+ /* background-color: #010d1d;*/
+ backdrop-filter: blur(10px);
+  
+  text-align: center;
+  color: rgb(37, 6, 179);
+}
