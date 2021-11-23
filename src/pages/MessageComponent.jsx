@@ -40,7 +40,7 @@ export default class MessageComponent extends Component {
         this.setState(({checkmail})=>({
             checkmail: new Set(checkmail).add(item)
         }));
-        console.log("chechmail"+this.state.checkmail)
+        console.log("chechmail"+this.state.checkmail.getEmployees)
     }
     removeMail(item)
     {
